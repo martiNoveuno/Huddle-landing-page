@@ -29,13 +29,6 @@ Users should be able to:
 
 ![](screenshot.png)
 
-### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
-## My process
-
 ### Built with
 
 - Semantic HTML5 markup
@@ -43,12 +36,6 @@ Users should be able to:
 - Flexbox
 - Font Awesome (https://fontawesome.com/)
 
-### What I learned
-
-### Continued development
-
 ## Author
 
 - Frontend Mentor - [@martiNoveuno](https://www.frontendmentor.io/profile/martiNoveuno)
-
-## Acknowledgments
