@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+body {
+  width: 100%;
+  background-image: url(images/bg-desktop.svg);
+  background-color: hsl(257, 40%, 49%);
+}
+
+.logo-container,
+.mockups-container {
+  margin: 50px;
+}
+
+.container {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.description {
+  position: relative;
+  max-width: 500px;
+  margin-top: 70px;
+}
+
+.h1-title {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 2.4em;
+  font-weight: 700;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-weight: 400;
+}
+
+/* button */
+.register-btn {
+  margin-top: 15px;
+  font-size: 1em;
+  color: hsl(257, 40%, 49%);
+  border: none;
+  padding: 10px;
+  font-weight: 400;
+  border-radius: 25px;
+  box-shadow: 5px 5px 10px hsla(0, 0%, 15%, 0.5);
+  padding: 15px 40px;
+  cursor: pointer;
+}
+
+.register-btn:hover {
+  background-color: hsl(300, 69%, 71%);
+  color: white;
+}
+
+/* icons */
+.icons {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+.icons i {
+  padding: 5px;
+}
+
+/* footer */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 84%, 48%);
+}
