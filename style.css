@@ -7,7 +7,7 @@ body {
   background-color: hsl(257, 40%, 49%);
 }
 
-.logo-container,
+.logo,
 .mockups-container {
   margin: 50px;
 }
@@ -16,6 +16,10 @@ body {
   display: flex;
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.mockup-img {
+  width: 100%;
 }
 
 .description {
@@ -76,4 +80,32 @@ p {
 
 .attribution a {
   color: hsl(228, 84%, 48%);
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .h1-title {
+    font-size: 2em;
+  }
+
+  .description {
+    text-align: center;
+    margin-top: 0;
+  }
+
+  .register-btn {
+    padding: 10px 30px;
+    margin-bottom: 35px;
+  }
+
+  .icons {
+    position: relative;
+    bottom: auto;
+    right: auto;
+    margin-bottom: 30px;
+  }
 }
